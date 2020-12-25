@@ -1,6 +1,6 @@
 # @neos21/loudness : neos-loudness
 
-[![NPM Version](https://img.shields.io/npm/v/@neos21/loudness.svg)](https://www.npmjs.com/package/@neos21/loudness) [![GPR Version](https://img.shields.io/github/package-json/v/neos21/neos-loudness?label=github)](https://github.com/Neos21/neos-loudness/packages/__ID__)
+[![NPM Version](https://img.shields.io/npm/v/@neos21/loudness.svg)](https://www.npmjs.com/package/@neos21/loudness) [![GPR Version](https://img.shields.io/github/package-json/v/neos21/neos-loudness?label=github)](https://github.com/Neos21/neos-loudness/packages/552078)
 
 Loudness
 
