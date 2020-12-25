@@ -18,5 +18,5 @@ switch(process.argv[2]) {
   case 'unmute':
     return exec('unmute');
   default:
-    return console.error('Please input a valid sub command');
+    return console.error('Loudness : Please input a valid sub command');
 }
