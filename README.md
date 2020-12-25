@@ -5,6 +5,33 @@
 Loudness
 
 
+## API
+
+### `loudness.get()` : `Promise<number>`
+
+- Returns : Volume ... `0` to `100`
+
+### `loudness.set(volume)` : `Promise<{ volume: number, isMuted: boolean }>`
+
+- Parameter 1 : Volume
+  - `number | string` : `0` to `100`
+- Returns : Volume Info
+  - Property `volume` : `number` ... `0` to `100`
+  - Property `isMuted` : `boolean` ... `true` or `false`
+
+### `loudness.isMuted()` : `Promise<boolean>`
+
+- Returns : Is Muted ... `true` or `false`
+
+### `loudness.mute()` : `Promise<{ volume: number, isMuted: boolean }>`
+
+- Returns : Volume Info
+
+### `loudness.unmute()` : `Promise<{ volume: number, isMuted: boolean }>`
+
+- Returns : Volume Info
+
+
 ## Links
 
 - [Neo's World](https://neos21.net/)
